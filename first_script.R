@@ -5,6 +5,10 @@ y <- 1:10
 
 plot(x,y)
 
+
+z <- rnorm(10, 2, 0.5)
+plot(x,z)
+
 xy <- data.frame(x,y)
 
 head(xy)
