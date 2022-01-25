@@ -16,3 +16,9 @@ head(xy)
 write.table(xy, file="xy.csv", sep = ",")
 
 # say all sorts of things here
+
+#transform y variable to log and plot
+
+log_y<-log(y)
+plot(x,log_y)
+
